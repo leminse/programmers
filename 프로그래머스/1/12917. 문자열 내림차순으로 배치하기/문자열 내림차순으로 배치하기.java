@@ -5,6 +5,7 @@ class Solution {
         String answer = "";
         String[] arr = s.split("");
         Arrays.sort(arr, Collections.reverseOrder());
+        // 내림차순 함수 : reveresOrder()
         for(String i : arr){
             answer += i;
         }
